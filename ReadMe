@@ -1,0 +1,34 @@
+# Lottery Smart Contract
+
+A decentralized lottery application built using Solidity and deployed on the Ethereum blockchain. This project showcases the power of smart contracts by implementing a transparent and automated lottery system where participants can enter by sending Ether, and a winner is selected programmatically.
+
+## Features
+- **Decentralized Lottery System**: Enables participants to join by sending Ether to the smart contract.
+- **Random Winner Selection**: Ensures fairness through a secure random selection mechanism.
+- **Owner Controls**: Only the contract owner can initiate winner selection and withdraw funds.
+- **Gas Optimization**: Designed for efficient use of gas during transactions.
+
+---
+
+## How It Works
+1. **Join the Lottery**: Participants send a fixed amount of Ether to the contract to enter.
+2. **Pick a Winner**: The contract owner triggers the `pickWinner` function, which selects a random participant as the winner.
+3. **Payout**: The contract automatically transfers the entire prize pool to the winner.
+
+---
+
+## Tech Stack
+- **Smart Contract Language**: Solidity
+- **Blockchain**: Ethereum
+- **Development Framework**: Hardhat/Truffle (customize as applicable)
+- **Testing**: Mocha/Chai (or any testing framework used)
+- **Tools**: 
+  - OpenZeppelin for security best practices
+  - Remix for contract deployment and testing
+
+---
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/salmamoh905/lottery-sol.git
